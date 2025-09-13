@@ -101,7 +101,7 @@ function App() {
   const displayOrders = showAllOrders ? allOrders : orders;
   return <>
       <Helmet>
-        <title>G-BOX | WhatsApp Order Parser</title>
+        <title>G-BOX</title>
         <meta name="description" content="Parse WhatsApp order messages and export to Excel with database storage" />
       </Helmet>
       
@@ -122,7 +122,7 @@ function App() {
               <div className="p-3 bg-gradient-to-r from-green-400 to-blue-500 rounded-full">
                 <MessageSquare className="w-8 h-8 text-white" />
               </div>
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">G-BOX WhatsApp Order</h1>
+              <h1 className="text-4xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">G-BOX WhatsApp Order Parser</h1>
             </div>
             <p className="text-xl text-gray-300 max-w-2xl mx-auto">
               Extract order data from WhatsApp messages and export to Excel with database storage

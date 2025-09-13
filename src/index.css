@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
 body {
   font-family: 'Inter', sans-serif;
   @apply bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 text-white;

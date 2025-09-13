@@ -16,6 +16,7 @@ const OrderTable = ({ orders }) => {
             <th className="text-left p-3 text-white font-semibold">Price</th>
             <th className="text-left p-3 text-white font-semibold">Delivery</th>
             <th className="text-left p-3 text-white font-semibold">Total Payment</th>
+            <th className="text-left p-3 text-white font-semibold">Note</th>
           </tr>
         </thead>
         <tbody>
@@ -38,6 +39,7 @@ const OrderTable = ({ orders }) => {
               <td className="p-3 text-gray-300">{order.price}</td>
               <td className="p-3 text-gray-300">{order.delivery}</td>
               <td className="p-3 text-green-400 font-semibold">{order.totalPayment}</td>
+              <td className="p-3 text-gray-300">{order.note}</td>
             </motion.tr>
           ))}
         </tbody>

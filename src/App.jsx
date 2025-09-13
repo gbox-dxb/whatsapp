@@ -116,7 +116,7 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>WhatsApp Order Parser - Extract & Export Orders</title>
+        <title>Gbox WhatsApp Order Parser</title>
         <meta name="description" content="Parse WhatsApp order messages and export to Excel with database storage" />
       </Helmet>
       
